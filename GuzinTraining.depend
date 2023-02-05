@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1675615728 source:c:\users\guzin\desktop\guzintraining\main.c
-
-1675613694 source:c:\users\guzin\desktop\guzintraining\human.c
+1675617741 source:c:\users\guzin\desktop\guzintraining\main.c
 	"GuzinTraining.h"
 
-1675612124 c:\users\guzin\desktop\guzintraining\guzintraining.h
+1675618676 source:c:\users\guzin\desktop\guzintraining\human.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+
+1675618681 c:\users\guzin\desktop\guzintraining\guzintraining.h
 

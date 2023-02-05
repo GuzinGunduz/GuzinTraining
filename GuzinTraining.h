@@ -1,16 +1,9 @@
 #ifndef GUZINTRAINING_H_INCLUDED
 #define GUZINTRAINING_H_INCLUDED
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
-struct human
-{
-char name [25];
-char city[25];
-int age;
-};
+void deneme1(float r);
+void deneme2(float r);
+float deneme3(float r);
 
-extern struct human human1;
 
 #endif // GUZINTRAINING_H_INCLUDED

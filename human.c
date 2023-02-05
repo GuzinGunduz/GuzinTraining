@@ -1,13 +1,19 @@
-#include "GuzinTraining.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-struct human human1;
+void deneme1(float r){
+    float a = 2 * r;
+    printf("\nSayi = %.2f\n", a);
+}
 
-void human_main ()
-{
-strcpy(human1.name, "Guzin");
-human1.age = 29;
-strcpy(human1.city,"Bursa");
-printf("Name: %s\n", human1.name);
-printf("City : %s\n", human1.city);
-printf("Age : %d\n", human1.age);
+void deneme2(float r){
+    float a = 3 * r;
+    printf("\nSayi = %.2f\n", a);
+}
+
+float deneme3(float r){
+    float a = 4 * r;
+    printf("\nSayi = %.2f\n", 2*a);
+    return a;
 }
