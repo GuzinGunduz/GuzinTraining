@@ -1,29 +1,37 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+void deneme1(float osman){
+    float a = 2 * osman;
+    printf("\nSayi = %.2f\n", a);
+}
 
-struct human
-{
-    char name [25];
-    char city[25] ;
-    float  age ;
-} human1, human2, h[20];
+void deneme2(float r){
+    float a = 3 * r;
+    printf("\nSayi = %.2f\n", a);
+}
 
-
+float deneme3(float r){
+    float a = 4 * r;
+    printf("\nSayi = %.2f\n", 2*a);
+    return a;
+}
 
 int main ()
 {
-    strcpy(human1.name, "Guzin");
-    human1.age = 29;
-    strcpy(human1.city,"Bursa");
+    float a = 90;
+    printf("a in main is %.2f\n", a);
 
-    printf("Name: %s\n", human1.name);
-    printf("City : %s\n", human1.city);
-    printf("Age : %.1f\n", human1.age);
+    deneme1(a);
 
+    printf("a in main is %.2f\n", a);
 
+    deneme2(a);
 
+    printf("a in main is %.2f\n", a);
 
+    a = deneme3(a);
+
+    printf("a in main is %.2f\n", a);
 
     return 0;
 }
+
+
